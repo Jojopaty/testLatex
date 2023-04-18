@@ -1,0 +1,84 @@
+\documentclass[11pt,a4paper,multicol]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{aeguill}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true, %colorise les liens
+breaklinks=true, %permet le retour à la ligne dans les liens trop longs
+urlcolor= blue, %couleur des hyperliens
+linkcolor= black, %couleur des liens internes
+citecolor=black, %couleur des références
+}
+
+\newcommand{\setAuthors}{Edgar BOULE}
+\newcommand{\setDate}{3 avril 2023}
+\newcommand{\UV}{EC01 }
+\newcommand{\courseNumber}{TD 4 }
+\newcommand{\setTitle}{Les entreprises}
+
+\usepackage{tikz}
+\usepackage[european,cuteinductors,siunitx, straightvoltages]{circuitikz}
+%Remplacer l= par l_= pour changer la position des étiquettes
+\usetikzlibrary{babel}
+%Sinon problème avec babel. On peut aussi essayer \shorthandoff{;?!:} puis \shorthandon{;?!:}
+\usepackage{mathtools}
+\usetikzlibrary{plotmarks}
+\usepackage{pgfplots}
+\usepackage{array}
+\usepackage{hhline}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand\headrulewidth{1pt}
+\lhead{\setAuthors}
+\fancyheadoffset{0.005\textwidth}
+\rhead{\UV - \courseNumber - \setTitle}
+\rfoot{\setDate}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{\setAuthors}
+\title{\textbf{\UV - \courseNumber} \\ \setTitle}
+\date{\textit{\setDate}}
+
+
+
+\begin{document}
+\maketitle{}
+
+
+\part*{Questions}
+
+\section{Qu'est-ce qu'un abus de position dominante ? Pourquoi ces pratiques sont jugées anti-concurrentielles ? Illustrez.}
+Un abus de position dominante est quand une entreprise possède un avantage sur un marché et qu'elle l'utilise soit pour s'enrichir en augmentant ses prix de façon abusive (augmentation qui ne reflète pas une augmentation de ses couts de production par exemple), soit pour restreindre la concurrence sur ce marché en vendant ses produits ou services à un prix bien plus bas que tous les autres acteurs, entre autres grâce au volume qu'elle peut écouler. Ces avantages peuvent être par exemple que l'entreprise est seule sur le marché, ou elle le domine de loin par rapport à ses concurrents. C'était le cas jusqu'à récemment de la SNCF ou d'EDF, et maintenant pax exemple de Google ou Microsoft. Ces acteurs ne sont pas seuls sur le marché (en particulier Google et Microsoft) mais ils sont bien plus développés que leur concurrents.
+
+\section{Pourquoi les fusions-acquisitions peuvent être problématiques selon la Commission européenne ? Quels peuvent en être les avantages ?}
+Les fusions-acquisitions peuvent être un problème car si une entreprise dominante sur un marché acquiert toutes les autres entreprises pouvant lui faire concurrence, elle se retrouve sans aucune concurrence et peut manipuler le marché, ce qui deviendrait un abus de position dominante. De plus, selon la Commission Européenne, la concurrence permet de baisser les prix des biens et services, et stimule l'innovation. Le fait pour une entreprise d'acquérir tous ses concurrents ne pourrait donc uniquement être bénéfique pour elle, au détriment des consommateurs.\\
+En revanche, les fusions-acquisitions peuvent permettre de mutualiser certains couts que les entreprises doivent supporter, notamment dans le cadre de l'innovation. En effet, plusieurs entreprises qui cherchent de nouvelles solutions pour leurs produits avec un budget limité évolueront moins rapidement que si elles mutualisent leurs ressources afin d'innover plus rapidement.
+
+
+\section{Suivant le Document 8 ``Caractéristiques des entreprises par catégorie en 2020'' de l'INSEE, comparez les caractéristiques des grandes entreprises et des microentreprises.}
+Ce document fait apparaître qu'en 2020 en France, il y avait 270 grandes entreprises réparties en environ 23000 entités légales et un peu moins de 4 millions de microentreprises réparties en 4,02 millions d'entités légales. Cela montre que les grandes entreprises sont très souvent réparties en différents sites ou entités plus petites : elles sont fractionnées, par rapport aux microentreprises qui ne sont pas fractionnées.\\
+Cependant, les grandes entreprises, bien que minoritaires en nombre dans le paysage français, se partagent un chiffre d'affaire bien plus grand que les microentreprises (1257 milliards pour les grandes entreprises contre 543 milliards pour les microentreprises). La différence est encore plus flagrante pour le chiffre d'affaire résultant des exportations (340 milliards pour les grandes entreprises contre seulement 17 milliards).\\
+Les grandes entreprises possèdent également plus de ressources humaines que les microentreprises mais cette différence n'est pas proportionnelle au nombre d'entreprises. Chaque grande entreprise possède donc beaucoup plus de salariés que les microentreprises, mais chaque salarié produit beaucoup plus de richesse dans une grande entreprise comparativement à un salarié d'une microentreprise.\\
+On peut donc dire que les grandes entreprises se partagent une grande partie de la richesse entre peu d'acteurs, et donc possèdent un profit plutôt élevé par rapport aux microentreprises qui ont besoin de beaucoup plus de ressources et d'investissements (humains et financiers) pour atteindre un profit comparable à celui des grandes entreprises. Il est don très difficile pour une microentreprise de venir concurrencer équitablement un grand groupe dans ces conditions.
+
+
+\part*{Question de réflexion}
+\section*{Quels sont les arguments contre et en faveur de l'aide de l'État aux entreprises ?}
+Ces dernières années, en raisons des différentes crises locales ou mondiales que nous avons traversé, l'État a entreprit de grandes campagnes d'aides aux entreprises. L'objectif de ces campagnes est d'aider les entreprises, parfois seulement les petites entreprises, à surmonter ces crises dans lesquelles elles sont le plus touchées. Par exemple, durant les confinements dus à la COVID, les petits magasins de ville dits ``non essentiels'' devaient être fermés. Ces entreprises n'ont donc fait aucun chiffre d'affaire sur cette période tandis que les marchants en ligne continuaient à vendre leurs produits. L'état est donc venu en aide à ces petits commerces pour leur permettre de survivre, en particulier les dirigeants et les employés, qui se seraient retrouvés sans salaire pendant plusieurs mois sans cela.\\
+Ces aides sont donc très utiles pour assurer la survie des entreprises, en particulier des plus petites. D'autres aides peuvent également inciter des entreprises à s'installer sur un certain territoire, par exemple pour relocaliser une production en France, ou encore pour empêcher une entreprise d'être rachetée par un groupe mondial ou racheter ses dettes.\\
+Cependant, ces aides viennent en contradiction d'un marché totalement libéral, dans lequel c'est la loi de l'économie qui régit la survie des entreprises, ou leurs acquisitions. En effet, plus une entreprise est grande, plus elle a de pouvoir, et plus les petites entreprises sont vulnérables face à ces grands groupes. Ces petites entreprises peuvent donc être rachetées par les grands groupes pour étendre leur influence. Dans ce type d'économie, les salariés des entreprises risquent cependant d'être licenciés dès qu'une entreprise va mal, et la concurrence entre les entreprises est très rude.\\
+Pour conclure, les aides de l'État aux entreprises faussent en quelque sorte la concurrence des entreprises entre elles, avec des entreprises plus performantes que ce qu'elles devraient être sans ces aides, mais néanmoins des entreprises qui sont plus résistantes aux aléas économiques entre autres, et donc offrant une meilleure sécurité de l'emploi à ses salariés.
+
+\end{document}
