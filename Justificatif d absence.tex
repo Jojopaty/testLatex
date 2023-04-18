@@ -1,0 +1,90 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[top=1.3in,bottom=1in,left=1in,right=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\colorlet{dkgreen}{green!20!black}  
+\hypersetup{
+  colorlinks=true,
+  allcolors=black
+}
+
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsfonts}
+\usepackage{aeguill}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+
+\usepackage{slantsc}
+
+\pagestyle{fancy}
+
+\fancyhead[C]{
+  \begin{tcolorbox}[colback=white,colframe=black,sharp corners=uphill]
+    \vspace{-0.7in}
+    \begin{minipage}[b]{0.55\textwidth}
+      \colorbox{white}{\includegraphics[height=1.0in]{logo-bds-noir-boite-mail-1665499755.png}}
+    \end{minipage}
+    \begin{minipage}{0.50\textwidth}
+      \vspace{0.3in}
+      {\Large \bf \Association}\\
+      {\Address}\\
+      {\City}\\
+      {Email : \myemail}
+      \vspace{0.1in}
+    \end{minipage}
+  \end{tcolorbox}  
+}
+
+%%% Customizations below
+\newcommand\Association{Bureau des Sports UTBM}
+\newcommand\Address{6 Boulevard Anatole France}
+\newcommand\City{90000, Belfort}
+\newcommand\myemail{\href{mailto:bds@utbm.fr}{bds@utbm.fr}}
+\newcommand\myweb{\href{https://utbm-bds.s2.yapla.com/fr/}{bds.utbm.fr}}
+\newcommand\Titre{Justificatif d'absence}
+
+\input{parameters.tex}
+
+\addtolength{\headheight}{4cm}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\thispagestyle{fancy}
+
+\begin{center}
+    \bf \LARGE JUSTIFICATIF D'ABSENCE
+\end{center}
+
+\vspace{1cm}
+
+Le Bureau des Sports UTBM atteste que l'étudiant :\\\\
+\textbf{Nom :} \Surname \newline
+\textbf{Prénom :} \Name \newline
+
+Participera au Tournoi OmniSport Supélec (TOSS) du vendredi 12 mai au dimanche 14 mai 2023. Le départ de Belfort étant prévu le vendredi à 16h, l'étudiant ne pourra pas assister à une partie de ses cours magistraux, travaux dirigés et travaux pratiques.\\
+Il appartient à l'élève de faire le nécessaire pour rattraper les cours manqués.
+
+\vspace{1cm}
+
+Pour faire valoir ce que de droit,
+
+\vspace{0.6cm}
+
+\begin{multicols}{2}
+    Signature du président\\
+(ou par délégation le Vice-Président)
+
+\begin{flushright}
+    Cachet du BDS
+\end{flushright}
+
+\end{multicols}
+
+
+\end{document}
